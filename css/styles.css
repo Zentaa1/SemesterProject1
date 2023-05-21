@@ -20,6 +20,11 @@ footer {
     flex-direction: column;
 }
 
+.padding {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
 .footer {
     background-color: #94BCE3;
     font-family: sans-serif;
@@ -73,13 +78,13 @@ footer {
     max-width: 200px;
     height: auto;
     margin: 7px;
-    margin-left: 10rem;
+    padding-left: 10rem;
 }
 
 .header_UL {
     list-style-type: none;
     margin: 7px;
-    margin-right: 10rem;
+    padding-right: 10rem;
 }
 
 .header_UL li {
@@ -166,8 +171,6 @@ footer {
     display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 10rem;
-    padding-right: 10rem;
 }
 
 .card-section a {
@@ -194,12 +197,10 @@ footer {
 
 .mainpage {
     display: flex;
-    justify-content: center;
-    padding-left: 20rem;
-    padding-right: 20rem;
     flex-wrap: wrap;
-    max-width: 1300px;
-    width: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     margin-bottom: 15px;
 }
 
@@ -257,18 +258,23 @@ footer {
     margin-top: 15px;
     margin-left: 15px;
     text-align: center;
-    width: 28%;
+    max-width: 28%;
+    width: 100%;
 }
 
 .ticket-button {
     margin-top: 60px;
-    width: 170px;
+    max-width: 170px;
+    width: 100%;
     height: 35px;
     font-size: 24px;
     border-radius: 6px;
     border: none;
     background-color: #468BCE;
     color: #2F2F2F;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .news-main {
@@ -337,7 +343,6 @@ footer {
 }
 
 .visit-adress {
-    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -355,8 +360,6 @@ footer {
     flex-direction: column;
     align-items: center;
     color: #3E3E3E;
-    margin-left: 10rem;
-    margin-right: 10rem;
 }
 
 .ticket-top {
@@ -450,8 +453,6 @@ footer {
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding-left: 10rem;
-    padding-right: 10rem;
 }
 
 .vehicle-top {
@@ -478,8 +479,6 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-left: 10rem;
-    padding-right: 10rem;
 }
 
 .vr-top {
@@ -570,8 +569,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 10rem;
-    padding-right: 10rem;
 }
 
 .science-top {
@@ -625,12 +622,52 @@ footer {
     grid-column-end: -1;
 }
 
+@media screen and (max-width: 1350px) {
+    .science-form {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media screen and (max-width: 1100px) {
     .header_UL li {
         padding: 0rem;
     }
     .card-section {
         grid-template-columns: 1fr 1fr;
+    }
+    .tickets {
+        max-width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .newsletter {
+        max-width: 100%;
+    }
+    .csm-card h2 {
+        font-size: 16px;
+    }
+    .padding {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .header_Logo {
+        padding-left: 5rem;
+    }
+    .header_UL {
+        padding-right: 5rem;
+    }
+    .footer {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .visit-mid {
+        flex-wrap: wrap;
+    }
+    .visit-adress {
+        padding-bottom: 1rem;
+    }
+    .ticket-bot {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -676,5 +713,57 @@ footer {
 
     .nav-menu.Active {
         left: 0;
+    }
+    .map-img img {
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+    }
+    .ticket-middle {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ticket-price {
+        margin-bottom: 20px;
+        max-width: 300px;
+        width: 100%;
+    }
+    .padding {
+        margin-top: 20px;
+    }
+    .ticket-information p {
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 0px;
+    }
+    .vehicle-middle img {
+        max-width: 1300px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .card-section {
+        grid-template-columns: 1fr;
+    }
+    .padding {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .footer {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .vr-mid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .vr-activities {
+        margin-bottom: 20px;
+    }
+    .science-form-input input {
+        max-width: 350px;
     }
 }
