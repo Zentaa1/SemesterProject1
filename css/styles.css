@@ -29,6 +29,10 @@ footer {
     display: none;
 }
 
+.attractions-h1 {
+    text-align: center;
+}
+
 .footer {
     background-color: #94BCE3;
     font-family: sans-serif;
