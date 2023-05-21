@@ -132,7 +132,7 @@ footer {
     background-color: #468BCE;
     color: white;
     min-height: 10px;
-    max-height: 40px;
+    max-height: 70px;
     display: none;
     justify-content: space-between;
     align-items: center;
@@ -703,7 +703,7 @@ footer {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 60px;
+        top: 65px;
         gap: 0;
         flex-direction: column;
         background-color: #468BCE;
@@ -712,6 +712,15 @@ footer {
         transition: 0.3s;
         font-size: 20px;
         font-weight: 600;
+    }
+    .header_Logo {
+        max-width: 150px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .overhead {
+        display: none;
     }
 
     .nav-item {
