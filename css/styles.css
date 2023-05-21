@@ -25,6 +25,10 @@ footer {
     padding-right: 10rem;
 }
 
+.hidden-label {
+    display: none;
+}
+
 .footer {
     background-color: #94BCE3;
     font-family: sans-serif;
