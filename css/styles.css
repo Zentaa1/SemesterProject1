@@ -189,12 +189,11 @@ footer {
 .cards {
     max-width: 200px;
     padding: 1rem;
-    
 }
 
 .card-text {
     text-align: center;
-    background-color: 579CDF;
+    background-color: #579CDF;
     max-width: 200px;
 }
 
