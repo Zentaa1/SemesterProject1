@@ -329,11 +329,20 @@ footer {
     width: 100%;
 }
 
+.visit-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .visit-adress {
     width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 20px;
+    padding-bottom: 10rem;
 }
 
 .visit-adress ul {
@@ -402,13 +411,37 @@ footer {
     max-width: 1300px;
     width: 100%;
     display: grid;
-    display: flex;
-    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
 }
 
 .ticket-bot div {
     display: flex;
     flex-direction: column;
+    margin: 1rem;
+}
+
+.ticket-input {
+    height: 30px;
+    background-color: #DDECFB;
+    border: none;
+}
+
+.ticket-form-btn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.ticket-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: #468BCE;
+    color: #2F2F2F;
 }
 
 .vehicle-main {
@@ -440,10 +473,156 @@ footer {
 }
 
 .vr-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.vr-top {
+    background-color: #8BC6FF;
+    max-width: 1300px;
+    width: 100%;
+}
+
+.vr-top p {
+    font-size: 20px;
+}
+
+.vr-mid {
     max-width: 1300px;
     width: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.vr-activities {
+    background-color: #8BC6FF;
+    margin-right: 30px;
+    max-width: 200px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.vr-activities ul {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.vr-activities ul li {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.vr-booking {
+    background-color: #8BC6FF;
+    max-width: 1100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.vr-booking h2, .vr-book-name, .vr-book-email, .vr-book-players, .vr-book-btn {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.vr-booking div {
+    margin: 10px;
+}
+
+.vr-book-input label {
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.vr-book-input input, .vr-book-input select {
+    background-color: #DDECFB;
+    border: none;
+    height: 25px;
+}
+
+.vr-book-name input, .vr-book-email input {
+    max-width: 700px;
+    width: 100%;
+}
+
+.vr-book-btn input {
+    width: 100px;
+    height: 35px;
+    background-color: #468BCE;
+    color: #2F2F2F;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.science-main {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.science-top {
+    background-color: #8BC6FF;
+    max-width: 1300px;
+    width: 100%;
+    text-align: center;
+}
+
+.science-top p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.science-mid {
+    max-width: 1300px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.science-form {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.science-form-input input {
+    max-width: 500px;
+    width: 100%;
+    height: 35px;
+    background-color: #DDECFB;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+.science-btn input {
+    width: 100px;
+    height: 35px;
+    background-color: #468BCE;
+    color: #2F2F2F;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.science-btn {
+    grid-column-start: 1;
+    grid-column-end: -1;
 }
 
 @media screen and (max-width: 1100px) {
