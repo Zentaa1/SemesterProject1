@@ -26,4 +26,4 @@ Contributions and suggestions are valuable to us. If you'd like to contribute:
 
 ## Contact
 
-For any inquiries or support, feel free to reach out at [your_email@example.com](mailto:your_email@example.com).
+For any inquiries or support, feel free to reach out at [marius@bjeglerud.com](mailto:marius@bjeglerud.com).
