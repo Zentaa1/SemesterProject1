@@ -1,4 +1,6 @@
 # Community Science Museum
+![image](https://github.com/Zentaa1/SemesterProject1/assets/117643567/4bb6af24-2da5-40b5-b357-123a2a2db265)
+
 
 Community Science Museum is a web platform designed to engage children interested in visiting the museum. It offers an interactive interface built to enhance the museum experience for its young audience. Developed as a semester project, the site is primarily built using HTML, CSS, and incorporates JavaScript for interactive elements like the hamburger menu and carousel slider.
 
